@@ -39,8 +39,7 @@ The output of our model is supplied at './code/result/', which consist with two 
 The probability of each gene is non-cancer driver gene (the first column) or cancer driver gene (the second column) have been stored in 'logits', and the mean accuracy of 5-CV are in 'acc'
 
 ## License
-
-DiGCN is released under the MIT License. See the LICENSE file for more details.
+DGMP is released under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgements
 
