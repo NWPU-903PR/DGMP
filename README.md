@@ -1,4 +1,4 @@
-# DGMP: Identifying Cancer Driver Genes by Jointing Directed Graph Convolution Network and Multi-layer Perceptron from Multi-omics Genomic Data
+# DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-omics Genomic Data
 *by Shaowu Zhang\* (zhangsw@nwpu.edu.cn), Jingyu Xu, Tong Zhang*
 
 ## Requirements
