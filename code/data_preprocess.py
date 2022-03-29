@@ -14,12 +14,12 @@ import os
 A = pd.read_table('/home/disk1/xujingyu/DGMP/network/human.source',header = None)
 A = A.iloc[0:151215,[0,2]]
 A = A.values.tolist()
-G = nx.from_edgelist(A)
+G = nx.from_edgelist(A, create_using= nx.DiGraph)
 
 A1 = pd.read_table('/home/disk1/xujingyu/DGMP/network/RegulatoryDirections/new_kegg.human.reg.direction.txt',sep=' ')
 A1 = A1.iloc[:,[0,2]]
 A1 = A1.values.tolist()
-G1 = nx.from_edgelist(A1)
+G1 = nx.from_edgelist(A1, create_using= nx.DiGraph)
 
 G.add_nodes_from(G1.nodes(data=True))
 G.add_edges_from(G1.edges(data=True))
